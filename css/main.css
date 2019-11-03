@@ -1,0 +1,159 @@
+/***BASE STYLES***/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #095156;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***FONTS***/
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px; 
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p {
+    font-size: 18px;
+    margin-block-start: 0em;
+}
+
+/***HEADER***/
+header {
+    height: 130px;
+}
+nav {
+    float: right;
+    padding: 70px 0px 0px 0px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #087e8b;
+    padding-left: 40px;
+}
+
+/***MAIN***/
+.top, .work, .bio, .info {
+    clear: both;
+}
+.top {
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+    border-top: 3px solid #095156;
+    border-bottom: 3px solid #095156;
+    height: 700px;
+}
+
+.top h1, h2 {
+    width: 800px;
+    padding: 300px 100px 0 200px;
+    text-align: center;
+}
+
+.top h1 {
+    color: #9ebf09;
+}
+
+.top h2 {
+    padding-top: 10px;
+}
+
+.work .half-width {
+    height: 400px;
+}
+
+.work a {
+    color: #095156;
+    text-decoration: none;
+}
+
+.bio {
+    background: #087e8b;
+    color: #ffffff;
+    height: 600px;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.bio img {
+    padding-left: 125px;
+}
+
+.bio p {
+    padding-right: 60px;
+}
+
+.info {
+    background: #095156;
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.info h3 {
+    margin-block-start: 0em;
+}
+
+.info h4 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.info p {
+    margin-block-end: 5px;
+}
+
+.info li {
+    display: inline-block;
+}
+
+.info li a {
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+
+/***FOOTER***/
+footer {
+    background: #095156;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 5px;
+    width: 1200px;
+    margin: 0px auto;
+}
